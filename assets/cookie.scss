@@ -1,0 +1,26 @@
+.cookieSection1,
+.cookieSection2,
+.cookieSection3,
+.cookieSection4,
+.cookieSection5,
+.cookieSection6,
+.cookieSection7,
+.cookieSection8,
+.cookieSection9,
+.cookieSection10 {
+  img {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+  }
+}
+
+.cookieSection11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 0;
+  @media (min-width: 768px) {
+    padding: 5% 0;
+  }
+}
