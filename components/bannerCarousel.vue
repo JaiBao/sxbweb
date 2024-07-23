@@ -41,12 +41,12 @@ const slides = ref([
     href: '/aboutUs'
   },
   {
-    image: '/index/BG.png',
+    image: '/index/BG2.png',
 
     href: '/cookie'
   },
   {
-    image: '/index/BG.png',
+    image: '/index/BG3.png',
 
     href: '/soy'
   }

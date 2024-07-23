@@ -35,7 +35,7 @@ export default defineNuxtConfig({
   css: ['~/assets/global.scss'],
   // Quasar 插件配置
   quasar: {
-    plugins: ['Notify', 'Loading'],
+    plugins: ['Notify', 'Loading', 'QCard'],
     config: {
       lang: 'zh-tw'
     }

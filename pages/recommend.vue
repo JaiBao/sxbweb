@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <section class="recommendSection1">
-      <h5 class="section1Title">網紅推薦</h5>
+      <h5 class="section1Title">口碑推薦</h5>
       <div class="recommendContainer">
         <q-card v-for="card in cards" :key="card.id" class="recommendCard">
           <div class="cardTitle">
@@ -9,7 +9,7 @@
             <div class="titles">
               <p class="title">{{ card.title }}</p>
 
-              <p class="identity">身份 : {{ card.identity }}</p>
+              <p class="identity">{{ card.identity }}</p>
               <q-btn :ripple="false" class="toBuy lt-md" @click="toBuy">{{ card.toBuy }}</q-btn>
             </div>
           </div>

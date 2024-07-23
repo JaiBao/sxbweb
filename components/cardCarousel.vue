@@ -1,5 +1,5 @@
 <template>
-  <Carousel v-bind="settings" :breakpoints="breakpoints" :wrap-around="true" :transition="500">
+  <Carousel v-bind="settings" :breakpoints="breakpoints" :wrap-around="true" :transition="500" :autoplay="4000">
     <Slide v-for="(slide, index) in slides" :key="index">
       <div class="carousel__item">
         <q-card class="readCard">
@@ -74,11 +74,11 @@ const breakpoints = ref({
     snapAlign: 'center'
   },
   1200: {
-    itemsToShow: 3,
+    itemsToShow: 3.3,
     snapAlign: 'center'
   },
   1920: {
-    itemsToShow: 3,
+    itemsToShow: 3.3,
     snapAlign: 'center'
   }
 })

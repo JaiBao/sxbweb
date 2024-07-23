@@ -8,17 +8,29 @@
   .headerLogo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    .logoImg {
-      width: 96px;
-      object-fit: contain;
+    .logoBtn {
+      padding-top: 2%;
+
+      .logoImg {
+        width: 96px;
+        object-fit: contain;
+      }
+    }
+  }
+  @media (min-width: 600px) {
+    .headerLogo {
+      justify-content: center;
     }
   }
   @media (min-width: 1024px) {
     .headerLogo {
-      .logoImg {
-        width: 173.793px;
+      justify-content: center;
+      .logoBtn {
+        .logoImg {
+          width: 173.793px;
+        }
       }
     }
   }
@@ -172,7 +184,7 @@
       justify-content: center;
       p {
         color: #444;
-        font-size: 0.75rem;
+        font-size: 0.8rem;
         font-style: normal;
         font-weight: 700;
         line-height: 160%; /* 19.2px */
@@ -186,9 +198,9 @@
     @media (min-width: 768px) {
       .footerLogo {
         padding-top: 5%;
-        img {
-          width: 30%;
-        }
+        // img {
+        //   width: 40%;
+        // }
       }
       .footerBottom {
         .footerList {
@@ -283,10 +295,10 @@
 // }
 .floating-buttons {
   position: fixed;
-  top: 50%;
+  top: 60%;
   right: 1%;
   z-index: 3000;
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     top: 200px;
   }
 }
@@ -294,12 +306,16 @@
   background-color: #f7b52c;
   border: #fff;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
   position: relative;
   overflow: hidden; /* 隐藏超出部分 */
   transition: background-color 0.3s; /* 背景色變動畫 */
+  @media (min-width: 1024px) {
+    width: 70px;
+    height: 70px;
+  }
 }
 .icon-wrapper {
   position: relative;
@@ -318,14 +334,16 @@
   transition: left 0.1s;
 }
 .icon-2 {
-  left: -100%;
+  left: -200%;
 }
 
 // gototop
 .scroll-to-top {
   position: fixed;
   top: 70%;
-  right: 3%;
+  right: 1%;
+  width: 50px;
+  height: 50px;
   opacity: 0.4;
   background-color: #f7b52c;
   color: #fff;
@@ -335,6 +353,8 @@
 
   @media (min-width: 1024px) {
     right: 1%;
+    width: 70px;
+    height: 70px;
   }
 }
 .scroll-to-top.visible {

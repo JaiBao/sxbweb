@@ -41,7 +41,7 @@
       <img src="/soy/iphone/p10.png" alt="" class="lt-md" />
     </section>
     <section class="soySection11">
-      <toBuyBtn />
+      <bubbleBtn2 />
     </section>
   </q-page>
 </template>

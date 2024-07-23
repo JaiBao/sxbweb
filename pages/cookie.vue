@@ -1,47 +1,48 @@
 <template>
   <q-page>
     <section class="cookieSection1">
-      <img src="/cookie/web/p1.png" alt="" class="gt-sm" />
-      <img src="/cookie/iphone/p1.png" alt="" class="lt-md" />
+      <img src="/cookie/web/p1.png" alt="cookie1" class="gt-sm" />
+      <img src="/cookie/iphone/p1.png" alt="cookie1" class="lt-md" />
     </section>
     <section class="cookieSection2">
-      <img src="/cookie/web/p2.png" alt="" class="gt-sm" />
-      <img src="/cookie/iphone/p2.png" alt="" class="lt-md" />
+      <img src="/cookie/web/p2.png" alt="cookie2" class="gt-sm" />
+      <img src="/cookie/iphone/p2.png" alt="cookie2" class="lt-md" />
     </section>
     <section class="cookieSection3">
-      <img src="/cookie/web/p3.png" alt="" class="gt-sm" />
-      <img src="/cookie/iphone/p3.png" alt="" class="lt-md" />
+      <img src="/cookie/web/p3.png" alt="cookie3" class="gt-sm" />
+      <img src="/cookie/iphone/p3.png" alt="cookie3" class="lt-md" />
     </section>
     <section class="cookieSection4">
-      <img src="/cookie/web/p4.png" alt="" class="gt-sm" />
-      <img src="/cookie/iphone/p4.png" alt="" class="lt-md" />
+      <img src="/cookie/web/p4.png" alt="cookie4" class="gt-sm" />
+      <img src="/cookie/iphone/p4.png" alt="cookie" class="lt-md" />
     </section>
     <section class="cookieSection5">
-      <img src="/cookie/web/p5.png" alt="" class="gt-sm" />
-      <img src="/cookie/iphone/p5.png" alt="" class="lt-md" />
+      <img src="/cookie/web/p5.png" alt="cookie5" class="gt-sm" />
+      <img src="/cookie/iphone/p5.png" alt="cookie5" class="lt-md" />
     </section>
     <section class="cookieSection6">
-      <img src="/cookie/web/p6.png" alt="" class="gt-sm" />
-      <img src="/cookie/iphone/p6.png" alt="" class="lt-md" />
+      <img src="/cookie/web/p6.png" alt="cookie6" class="gt-sm" />
+      <img src="/cookie/iphone/p6.png" alt="cookie6" class="lt-md" />
+      <img src="/cookie/iphone/p7.png" alt="cookie6" class="lt-md" />
     </section>
     <section class="cookieSection7">
-      <img src="/cookie/web/p7.png" alt="" class="gt-sm" />
-      <img src="/cookie/iphone/p7.png" alt="" class="lt-md" />
+      <img src="/cookie/web/p7.png" alt="cookie7" class="gt-sm" />
+      <img src="/cookie/iphone/p8.png" alt="cookie7" class="lt-md" />
     </section>
     <section class="cookieSection8">
-      <img src="/cookie/web/p8.png" alt="" class="gt-sm" />
-      <img src="/cookie/iphone/p8.png" alt="" class="lt-md" />
+      <img src="/cookie/web/p8.png" alt="cookie8" class="gt-sm" />
+      <img src="/cookie/iphone/p9.png" alt="cookie8" class="lt-md" />
     </section>
-    <section class="cookieSection9">
-      <img src="/cookie/web/p9.png" alt="" class="gt-sm" />
-      <img src="/cookie/iphone/p9.png" alt="" class="lt-md" />
-    </section>
-    <section class="cookieSection10">
-      <img src="/cookie/web/p10.png" alt="" class="gt-sm" />
-      <img src="/cookie/iphone/p10.png" alt="" class="lt-md" />
-    </section>
+    <!-- <section class="cookieSection9">
+      <img src="/cookie/web/p9.png" alt="cookie9" class="gt-sm" />
+      <img src="/cookie/iphone/p9.png" alt="cookie9" class="lt-md" />
+    </section> -->
+    <!-- <section class="cookieSection10">
+      <img src="/cookie/web/p10.png" alt="cookie10" class="gt-sm" />
+      <img src="/cookie/iphone/p10.png" alt="cookie10" class="lt-md" />
+    </section> -->
     <section class="cookieSection11">
-      <toBuyBtn />
+      <bubbleBtn2 />
     </section>
   </q-page>
 </template>

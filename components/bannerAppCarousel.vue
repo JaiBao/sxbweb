@@ -40,12 +40,12 @@ const slidesAPP = ref([
     href: '/aboutUs'
   },
   {
-    image: '/index/BG.png',
+    image: '/index/BGapp2.png',
 
     href: '/cookie'
   },
   {
-    image: '/index/BG.png',
+    image: '/index/BGapp3.png',
 
     href: '/soy'
   }

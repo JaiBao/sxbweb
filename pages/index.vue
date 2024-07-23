@@ -70,11 +70,18 @@
       <div class="section5Container">
         <h5>少小白特色</h5>
         <div class="section5Cards">
-          <card v-for="(section5Card, index) in section5Cards" :key="index" class="section5Card">
+          <q-card v-for="(section5Card, index) in section5Cards" :key="index" class="section5Card gt-sm">
             <img :src="section5Card.image" />
-            <p class="title">{{ section5Card.title }}</p>
+            <!-- <p class="title">{{ section5Card.title }}</p> -->
             <p class="content">{{ section5Card.content }}</p>
-          </card>
+            <p class="content">{{ section5Card.content2 }}</p>
+          </q-card>
+          <q-card v-for="(section5Card, index) in section5Cards2" :key="index" class="section5Card lt-md">
+            <img :src="section5Card.image" />
+            <!-- <p class="title">{{ section5Card.title }}</p> -->
+            <p class="content">{{ section5Card.content }}</p>
+            <p class="content">{{ section5Card.content2 }}</p>
+          </q-card>
         </div>
       </div>
     </section>
@@ -136,22 +143,52 @@ const section5Cards = ref([
   {
     image: '/index/icon4.png',
     title: '純淨O添加',
-    content: '100%純天然 無人工添加'
+    content: '100%純天然',
+    content2: '無人工添加'
   },
   {
     image: '/index/icon3.png',
     title: '友善環境',
-    content: '在地製造 減少碳足跡'
+    content: '在地製造',
+    content2: '減少碳足跡'
   },
   {
     image: '/index/icon2.png',
     title: '中央廚房',
-    content: '統一化專業管理製程 食安把關'
+    content: '統一化專業管理',
+    content2: '製程食安把關'
   },
   {
     image: '/index/icon.png',
     title: '新鮮配送',
-    content: '從生產到物流配送 新鮮送達'
+    content: '從生產到物流',
+    content2: '配送新鮮送達'
+  }
+])
+const section5Cards2 = ref([
+  {
+    image: '/index/iconapp4.png',
+    title: '純淨O添加',
+    content: '100%純天然',
+    content2: '無人工添加'
+  },
+  {
+    image: '/index/iconapp3.png',
+    title: '友善環境',
+    content: '在地製造',
+    content2: '減少碳足跡'
+  },
+  {
+    image: '/index/iconapp2.png',
+    title: '中央廚房',
+    content: '統一化專業管理',
+    content2: '製程食安把關'
+  },
+  {
+    image: '/index/iconapp.png',
+    title: '新鮮配送',
+    content: '從生產到物流',
+    content2: '配送新鮮送達'
   }
 ])
 </script>

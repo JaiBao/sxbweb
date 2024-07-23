@@ -9,9 +9,8 @@ const { toBuy } = useUniversal()
 <style lang="scss" scoped>
 .toBuyBtn {
   display: flex;
-  width: 325px;
-  height: 110px;
-  padding: 32px 106px;
+  width: 50%;
+  padding: 22px 36px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -20,16 +19,17 @@ const { toBuy } = useUniversal()
   font-weight: 700;
   line-height: 160%; /* 27.2px */
   box-shadow: none;
+  border: 2px solid #f7a62c;
   flex-shrink: 0;
-  color: #3e3a39;
+  color: #f7a62c;
   border-radius: 9999px;
-  background: #acacac;
+  background: transparent;
+  &::before {
+    box-shadow: none;
+  }
   &:hover {
     background: #f7b52c;
     color: #fff;
-  }
-  @media (min-width: 768px) {
-    font-size: 28px;
   }
 }
 </style>
